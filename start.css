@@ -109,6 +109,7 @@
     height: 56px;
     background: url(./assets/btn_minus.png) no-repeat;
     background-size: contain;
+    border: none;
 }
 
 .btn_plus {
@@ -116,6 +117,7 @@
     height: 56px;
     background: url(./assets/btn_plus.png) no-repeat;
     background-size: contain;
+    border: none;
 }
 .btn_box {
     width: 650px;
@@ -135,4 +137,8 @@
 .btn_next:hover {
     cursor: pointer;
     transform: scale(1.05, 1.05);
+}
+
+.btn_select:hover {
+    cursor: pointer;
 }
