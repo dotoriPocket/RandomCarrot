@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: 0.5s;
 }
 
 .container {
@@ -128,4 +129,10 @@
     height: 48px;
     background: url(./assets/btn_next.png) no-repeat;
     background-size: contain;
+    border: none;
+}
+
+.btn_next:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
 }
