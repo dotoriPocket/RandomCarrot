@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.sub_title {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color: #525252;
+}
+
+.title_box {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.title {
+    font-family: 'HS-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    vertical-align: baseline;
+}
+
+.title_green {
+    color: #408D01;
+}
+
+.title_orange {
+    margin-left: 10px;
+    color: #FA7D1E;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.step2 {
+    width: 60px;
+    height: 24px;
+    background: url(./assets/shape-3단계.png) no-repeat;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+.info_txt {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    width: 650px;
+    height: 512px;
+    background-color: #FFFDEA;
+}
+
+.box_guide {
+    width: 340px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_box {
+    width: 110px;
+    height: 110px;
+    background-color: #FFFFFF;
+    border: 2px solid #408D01;
+    border-radius: 6px;
+    position: relative;
+    margin-top: -1px;
+}
+
+.num {
+    font-family: 'HS-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    color: #408D01;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.img_type1 {
+    width: 72px;
+    height: 72px;
+    background: url(./assets/shape_carrot.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 28%;
+    left: 16%;
+}
+
+.img_type2 {
+    width: 72px;
+    height: 72px;
+    background: url(./assets/shape_dan.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 22%;
+    left: 24%;
+}
+
+.btn_box {
+    width: 650px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+}
+
+.btn_again {
+    width: 121px;
+    height: 48px;
+    background: url(./assets/btn_다시하기.png) no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.btn_again:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
