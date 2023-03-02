@@ -95,12 +95,12 @@
 }
 
 .box_guide {
-    width: 340px;
+    width: 345px;
     height: 340px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
