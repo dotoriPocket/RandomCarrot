@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="start.css">
-        <script src="index.js"></script>
+        <script src="start.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -25,13 +25,13 @@
              </div>
              <div class="main1">
                 <div class="main1 select">
-                    <button class="btn_select btn_minus"></button>
+                    <button class="btn_select btn_minus" onclick='count("minus")'></button>
                     <div class="main1 num">2</div>
-                    <button class="btn_select btn_plus"></button>
+                    <button class="btn_select btn_plus" onclick='count("plus")'></button>
                 </div>
             </div>
             <div class="btn_box">
-                <button class="btn_next" onclick="location.href='choose.html'"></button>
+                <button class="btn_next" onclick="gotoChoose()"></button>
             </div>
         </div>
     </body>
