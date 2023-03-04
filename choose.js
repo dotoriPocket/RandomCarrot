@@ -16,3 +16,8 @@ for(let n = 1; n <= num; n = n + 1) {
     
     boxGuide.appendChild(numBox);
 }
+
+function gotoResult() {
+    let num = parseInt(value.split("=")[1]);
+    location.href = `result.html?count=${num}`;
+}
