@@ -97,11 +97,10 @@
 
 .box_guide {
     width: 345px;
-    height: 340px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -115,7 +114,7 @@
     margin-top: -1px;
 }
 
-.num {
+.num_style {
     font-family: 'HS-Regular';
     font-weight: 400;
     font-size: 24px;
